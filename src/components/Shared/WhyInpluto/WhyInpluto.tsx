@@ -1,20 +1,21 @@
 import Container from "@/components/Reusable/Container/Container";
 import { IMAGES } from "../../../../public/assets";
 import Image from "next/image";
+import Marquee from "react-fast-marquee";
 
 const WhyInpluto = () => {
+    const logos = [IMAGES.dummyLogo, IMAGES.dummyLogo, IMAGES.dummyLogo, IMAGES.dummyLogo, IMAGES.dummyLogo, IMAGES.dummyLogo, IMAGES.dummyLogo, ]
     return (
-        <div className="bg-white pt-8">
+        <div className="bg-neutral-35 pt-8">
             <Container>
-                <h1 className="text-[#364153] font-Satoshi font-medium text-xl leading-6 text-center">Why you must choose Inpluto</h1>
-                <div className="flex items-center justify-between gap-[96px] mt-[60px] pb-7">
-                    <Image src={IMAGES.dummyLogo} alt="" />
-                    <Image src={IMAGES.dummyLogo} alt="" />
-                    <Image src={IMAGES.dummyLogo} alt="" />
-                    <Image src={IMAGES.dummyLogo} alt="" />
-                    <Image src={IMAGES.dummyLogo} alt="" />
-                    <Image src={IMAGES.dummyLogo} alt="" />
-                </div>
+                <h1 className="text-gray-20 font-Satoshi font-medium text-xl leading-6 text-center">Why you must choose Inpluto</h1>
+                <Marquee gradient={false} speed={50} className="mt-[60px] pb-7">
+                    {
+                        logos.map((logo, index) => (
+                            <Image key={index} src={logo} alt="" className="mr-[96px]" />
+                        ))
+                    }
+                </Marquee>
             </Container>
         </div>
     );

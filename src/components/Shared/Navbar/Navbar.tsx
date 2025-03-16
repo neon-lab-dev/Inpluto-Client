@@ -14,22 +14,22 @@ const Navbar = () => {
 
     return (
         <div
-            className="bg-[#06050B] h-screen relative">
+            className="bg-neutral-30 h-screen relative font-Satoshi">
             <Image src={IMAGES.gradientBg} alt="" className="absolute w-full bg-cover bg-center bg-no-repeat h-screen" />
 
             <Container>
                 <div className="relative z-10 flex items-center justify-between py-6">
-                    <Link href={"/"} className="font-Satoshi-900 text-white text-2xl">
+                    <Link href={"/"} className="font-extrabold text-white text-2xl">
                         Inpluto
                     </Link>
 
                     <div className="flex items-center gap-5">
                         {navlinks.map((link, index) => (
-                            <Link href={link.path} key={index} className="text-white font-Satoshi-500">
+                            <Link href={link.path} key={index} className="text-white font-medium">
                                 {link.label}
                             </Link>
                         ))}
-                        <button className="border border-white px-4 py-[10px] rounded-lg text-white font-Satoshi-500 cursor-pointer transition-all duration-300 ease-in-out transform active:scale-95">
+                        <button className="border border-white px-4 py-[10px] rounded-lg text-white font-medium cursor-pointer transition-all duration-300 ease-in-out transform active:scale-95">
                             Get Started
                         </button>
                     </div>
