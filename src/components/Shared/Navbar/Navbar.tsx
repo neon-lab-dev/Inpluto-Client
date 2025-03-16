@@ -1,7 +1,7 @@
 import Container from "@/components/Reusable/Container/Container";
 import Link from "next/link";
 import Hero from "@/components/HomePage/Hero/Hero";
-import { IMAGES } from "../../../../public/assets";
+import { GIFS, IMAGES } from "../../../../public/assets";
 import Image from "next/image";
 
 
@@ -14,8 +14,8 @@ const Navbar = () => {
 
     return (
         <div
-            className="bg-neutral-30 h-screen relative font-Satoshi">
-            <Image src={IMAGES.gradientBg} alt="" className="absolute w-full bg-cover bg-center bg-no-repeat h-screen" />
+            className="bg-neutral-30 relative font-Satoshi">
+            <Image src={IMAGES.gradientBg} alt="" className="absolute w-full bg-cover bg-center bg-no-repeat z-0" />
 
             <Container>
                 <div className="relative z-10 flex items-center justify-between py-6">
@@ -36,8 +36,9 @@ const Navbar = () => {
                 </div>
 
                 {/* Hero Section */}
-                <Hero />
             </Container>
+            <Hero />
+
         </div>
     );
 };

@@ -6,7 +6,7 @@ import Marquee from "react-fast-marquee";
 const WhyInpluto = () => {
     const logos = [IMAGES.dummyLogo, IMAGES.dummyLogo, IMAGES.dummyLogo, IMAGES.dummyLogo, IMAGES.dummyLogo, IMAGES.dummyLogo, IMAGES.dummyLogo, ]
     return (
-        <div className="bg-neutral-35 pt-8">
+        <div className="pt-8">
             <Container>
                 <h1 className="text-gray-20 font-Satoshi font-medium text-xl leading-6 text-center">Why you must choose Inpluto</h1>
                 <Marquee gradient={false} speed={50} className="mt-[60px] pb-7">

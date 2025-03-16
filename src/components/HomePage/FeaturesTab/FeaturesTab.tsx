@@ -13,7 +13,7 @@ const FeaturesTab = () => {
     ];
 
     return (
-        <div className="bg-neutral-35 pt-9 z-20">
+        <div className="pt-9">
             <Container>
                 <div className="border border-neutral-40 bg-neutral-45 rounded-[99px] p-4 flex items-center justify-between gap-3">
                     {

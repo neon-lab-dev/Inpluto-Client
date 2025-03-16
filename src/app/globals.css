@@ -29,6 +29,10 @@
   --font-Satoshi: Satoshi, sans-serif;
 
   /* Colors */
+
+  /* Primary */
+  --color-primary-10: #bc9bff80;
+
   /* Neutral */
   --color-neutral-10: #ffffff1a;
   --color-neutral-15: #ffffff0d;
@@ -43,9 +47,11 @@
   --color-gray-10: #EDE9FE;
   --color-gray-15: #ffffffbf;
   --color-gray-20: #CAD5E2;
+  --color-gray-25: #ffffff80;
 
    /* Shadows */
    --shadow-custom: 0px 4px 28px -4px rgba(0, 0, 0, 0.10);
+   --shadow-custom-hero: 0px 4px 250px 16px #A276FA;
 
    /* Gradients */
    --bg-gradient-primary: linear-gradient(180deg, #8C52FF 0%, #A276FA 100%);
