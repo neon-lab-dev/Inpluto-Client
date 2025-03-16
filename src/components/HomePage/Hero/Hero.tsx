@@ -27,6 +27,7 @@ const Hero = () => {
         },
     ];
 
+    // To handle the dropdown click event
     useEffect(() => {
         const close = (e: MouseEvent) => {
             if (dropDownRef.current && !dropDownRef.current.contains(e.target as Node)) {
