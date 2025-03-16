@@ -39,16 +39,16 @@ const Hero = () => {
     }, []);
 
     return (
-        <div className="relative z-10 text-center text-white mt-20 flex flex-col gap-8">
-            <div className="bg-[#ffffff1a] border-2 border-[#ffffff40] px-5 py-[10px] rounded-3xl backdrop-blur-xs text-[#EDE9FE] font-Satoshi-500 uppercase w-fit mx-auto">
+        <div className="relative z-10 text-center text-white mt-20 flex flex-col gap-8 font-Satoshi">
+            <div className="bg-[#ffffff1a] border-2 border-[#ffffff40] px-5 py-[10px] rounded-3xl backdrop-blur-xs text-[#EDE9FE] font-medium uppercase w-fit mx-auto">
                 Influencer Marketing, Simplified.
             </div>
 
             <div>
-                <h1 className="font-Satoshi-700 text-[80px] leading-[88px] max-w-[900px] mx-auto">
+                <h1 className="font-bold text-[80px] leading-[88px] max-w-[900px] mx-auto">
                     Find Influencers That Drive Real Results.
                 </h1>
-                <p className="text-[#ffffffbf] font-Satoshi-400 text-[28px] leading-8 max-w-[650px] mx-auto mt-4">
+                <p className="text-[#ffffffbf] text-[28px] leading-8 max-w-[650px] mx-auto mt-4">
                     Discover data-driven influencer matches, manage campaigns, and measure ROI seamlessly.
                 </p>
             </div>
@@ -56,10 +56,10 @@ const Hero = () => {
             {/* Search Bar */}
             <div className="bg-[#ffffff0d] border-2 border-[#ffffff40] p-[6px] rounded-[100px] backdrop-blur-xs max-w-[850px] w-full mx-auto flex items-center justify-between mt-6">
                 {/* Dropdown */}
-                <div ref={dropDownRef} className="relative max-w-[177px] w-full text-white font-Satoshi-400 text-xl leading-6">
+                <div ref={dropDownRef} className="relative max-w-[177px] w-full text-white text-xl leading-6">
                     <button
                         onClick={() => setOpen((prev) => !prev)}
-                        className="flex items-center gap-[6px] p-4 rounded-3xl bg-[#ffffff14] max-w-[177px] w-full font-Satoshi-400 cursor-pointer">
+                        className="flex items-center gap-[6px] p-4 rounded-3xl bg-[#ffffff14] max-w-[177px] w-full cursor-pointer">
                         <Image src={ICONS.instagram} alt="instagram-icon" className="size-6" />
                         Instagram
                         <Image src={ICONS.downArrow} alt="down-arrow" className="size-6" />
@@ -85,13 +85,13 @@ const Hero = () => {
 
             {/* Signup button */}
             <div className="flex flex-col gap-4">
-                <button className="bg-purple-gradient px-8 py-4 rounded-xl flex items-center gap-[10px] font-Satoshi-500 text-xl leading-6 w-fit mx-auto cursor-pointer 
+                <button className="bg-purple-gradient px-8 py-4 rounded-xl flex items-center gap-[10px] font-medium text-xl leading-6 w-fit mx-auto cursor-pointer 
                     transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl active:scale-95">
                     Sign up for free
                     <Image src={ICONS.rightArrow} alt="right-arrow" className="transition-transform duration-300 ease-in-out group-hover:translate-x-1" />
                 </button>
 
-                <Link href={"/"} className="font-Satoshi-700 text-xl leading-6 underline transition-all duration-300 ease-in-out transform active:scale-95">
+                <Link href={"/"} className="font-Satoshi font-bold text-xl leading-6 underline transition-all duration-300 ease-in-out transform active:scale-95">
                     I’m a Creator
                 </Link>
             </div>
