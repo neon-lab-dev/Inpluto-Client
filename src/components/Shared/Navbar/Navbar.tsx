@@ -16,7 +16,6 @@ const Navbar = () => {
         <div
             className="bg-neutral-30 relative font-Satoshi">
             <Image src={IMAGES.gradientBg} alt="" className="absolute w-full bg-cover bg-center bg-no-repeat z-0" />
-
             <Container>
                 <div className="relative z-10 flex items-center justify-between py-6">
                     <Link href={"/"} className="font-extrabold text-white text-2xl">
@@ -38,7 +37,6 @@ const Navbar = () => {
                 {/* Hero Section */}
             </Container>
             <Hero />
-
         </div>
     );
 };

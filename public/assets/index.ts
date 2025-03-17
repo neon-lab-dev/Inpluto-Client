@@ -1,6 +1,7 @@
 // "Images"
 import dummyLogo from "./images/dummy-logo.png";
 import gradientBg from "./images/gradient-bg.svg";
+import gradientBg2 from "./images/gradiebt-bg2.svg";
 
 // Icons
 import ellipse from "./icons/ellipse.svg";
@@ -19,6 +20,7 @@ export const GIFS = {
 export const IMAGES = {
     dummyLogo,
     gradientBg,
+    gradientBg2,
 };
 
 export const ICONS = {

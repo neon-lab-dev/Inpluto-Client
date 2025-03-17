@@ -44,7 +44,7 @@ const Hero = () => {
     return (
         <div className="relative z-10 text-center text-white mt-20 font-Satoshi">
             <Container>
-                <div className="flex flex-col gap-8 z-0">
+                <div className="flex flex-col gap-8 z-0 h-full sticky top-0">
                     <div className="bg-neutral-10 border-2 border-neutral-25 px-5 py-[10px] rounded-3xl backdrop-blur-xs text-gray-10 font-medium uppercase w-fit mx-auto">
                         Influencer Marketing, Simplified.
                     </div>
@@ -100,11 +100,9 @@ const Hero = () => {
                             I’m a Creator
                         </Link>
                     </div>
-
                 </div>
-
-
-                <div className="rounded-4xl border-2 border-gray-25 bg-primary-10 shadow-custom-hero backdrop:backdrop-blur-[12.5px] p-8 mt-[75px] z-10">
+                
+                <div className="rounded-4xl border-2 border-gray-25 bg-primary-10 shadow-custom-hero backdrop:backdrop-blur-[12.5px] p-8 mt-[75px] z-50 relative">
                     <Image src={GIFS.codeGifs} alt="code-animation" className="rounded-[20px]" />
                 </div>
             </Container>
