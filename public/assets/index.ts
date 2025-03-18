@@ -2,6 +2,7 @@
 import dummyLogo from "./images/dummy-logo.png";
 import gradientBg from "./images/gradient-bg.svg";
 import gradientBg2 from "./images/gradiebt-bg2.svg";
+import dummyInfluencer from "./images/dummy-influencer.png";
 
 // Icons
 import ellipse from "./icons/ellipse.svg";
@@ -33,6 +34,7 @@ export const IMAGES = {
     dummyLogo,
     gradientBg,
     gradientBg2,
+    dummyInfluencer,
 };
 
 export const ICONS = {
