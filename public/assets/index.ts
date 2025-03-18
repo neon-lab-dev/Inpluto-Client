@@ -8,6 +8,8 @@ import ourFeaturesBg from "./images/our-features-bg.png";
 // Icons
 import ellipse from "./icons/ellipse.svg";
 import instagram from "./icons/instagram.svg";
+import instagram2 from "./icons/instagram2.svg";
+import linkedin from "./icons/linkedin.svg";
 import search from "./icons/search.svg";
 import rightArrow from "./icons/right-arrow.svg";
 import downArrow from "./icons/down-arrow.svg";
@@ -52,6 +54,8 @@ export const IMAGES = {
 export const ICONS = {
     ellipse,
     instagram,
+    instagram2,
+    linkedin,
     search,
     rightArrow,
     downArrow,

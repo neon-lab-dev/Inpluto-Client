@@ -6,27 +6,27 @@ const Testimonials = () => {
     const testimonials = [
         {
             name: "Rahul Sutradhar",
-            brandName: "MITR Consultancy",
+            brandName: "MITRA Consultancy",
             review: "Lorem ipsum dolor sit amet consectetur. Dignissim massa porta ornare duis sed tellus sapien sagittis. Feugiat donec a montes mi elit vel ultrices sit vestibulum. Molestie augue in orci ridiculus aenean vitae volutpat in et. Lorem ipsum dolor sit amet consectetur. Dignissim massa porta ornare duis sed tellus sapien sagittis. Feugiat donec a montes mi elit vel ultrices sit vestibulum. Molestie augue in orci ridiculus aenean vitae volutpat in et."
         },
         {
             name: "Rahul Sutradhar",
-            brandName: "MITR Consultancy",
+            brandName: "MITRA Consultancy",
             review: "Lorem ipsum dolor sit amet consectetur. Dignissim massa porta ornare duis sed tellus sapien sagittis. Feugiat donec a montes mi elit vel ultrices sit vestibulum. Molestie augue in orci ridiculus aenean vitae volutpat in et."
         },
         {
             name: "Rahul Sutradhar",
-            brandName: "MITR Consultancy",
+            brandName: "MITRA Consultancy",
             review: "Lorem ipsum dolor sit amet consectetur. Dignissim massa porta ornare duis sed tellus sapien sagittis. Feugiat donec a montes mi elit vel ultrices sit vestibulum. Molestie augue in orci ridiculus aenean vitae volutpat in et."
         },
         {
             name: "Rahul Sutradhar",
-            brandName: "MITR Consultancy",
+            brandName: "MITRA Consultancy",
             review: "Lorem ipsum dolor sit amet consectetur. Dignissim massa porta ornare duis sed tellus sapien sagittis. Feugiat donec a montes mi elit vel ultrices sit vestibulum. Molestie augue in orci ridiculus aenean vitae volutpat in et."
         },
         {
             name: "Rahul Sutradhar",
-            brandName: "MITR Consultancy",
+            brandName: "MITRA Consultancy",
             review: "Lorem ipsum dolor sit amet consectetur. Dignissim massa porta ornare duis sed tellus sapien sagittis. Feugiat donec a montes mi elit vel ultrices sit vestibulum. Molestie augue in orci ridiculus aenean vitae volutpat in et."
         },
     ];
