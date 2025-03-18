@@ -1,8 +1,9 @@
 // "Images"
 import dummyLogo from "./images/dummy-logo.png";
+import dummyInfluencer from "./images/dummy-influencer.png";
 import gradientBg from "./images/gradient-bg.svg";
 import gradientBg2 from "./images/gradiebt-bg2.svg";
-import dummyInfluencer from "./images/dummy-influencer.png";
+import ourFeaturesBg from "./images/our-features-bg.png";
 
 // Icons
 import ellipse from "./icons/ellipse.svg";
@@ -10,6 +11,16 @@ import instagram from "./icons/instagram.svg";
 import search from "./icons/search.svg";
 import rightArrow from "./icons/right-arrow.svg";
 import downArrow from "./icons/down-arrow.svg";
+
+import bag from "./icons/bag-2 1.svg";
+import chart2 from "./icons/chart-2 1.svg";
+import chessKing from "./icons/chess-king 1.svg";
+import globe from "./icons/globe 1.svg";
+import lightBulbIdea from "./icons/light-bulb-idea 1.svg";
+import megaphone from "./icons/megaphone 1.svg";
+import target from "./icons/target 1.svg";
+import testTubeMinimalistic from "./icons/test-tube-minimalistic 1.svg";
+import write from "./icons/write 1.svg";
 
 // Gifs
 import codeGifs from "./gifs/code.gif";
@@ -35,6 +46,7 @@ export const IMAGES = {
     gradientBg,
     gradientBg2,
     dummyInfluencer,
+    ourFeaturesBg,
 };
 
 export const ICONS = {
@@ -43,4 +55,13 @@ export const ICONS = {
     search,
     rightArrow,
     downArrow,
+    bag,
+    chart2,
+    chessKing,
+    globe,
+    lightBulbIdea,
+    megaphone,
+    target,
+    testTubeMinimalistic,
+    write,
 };

@@ -44,6 +44,7 @@
   --color-neutral-40: #1D293D;
   --color-neutral-45: #0F172B;
   --color-neutral-50: #314158;
+  --color-neutral-55: #243757;
 
 /* Gray/White */
   --color-gray-10: #EDE9FE;
@@ -52,6 +53,7 @@
   --color-gray-25: #ffffff80;
   --color-gray-30: #E2E8F0;
   --color-gray-35: #90A1B9;
+  --color-gray-40: #5D6B82;
 
    /* Shadows */
    --shadow-custom: 0px 4px 28px -4px rgba(0, 0, 0, 0.10);

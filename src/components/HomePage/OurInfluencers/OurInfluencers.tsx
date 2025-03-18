@@ -9,6 +9,8 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import { Autoplay } from "swiper/modules";
+import Image from "next/image";
+import { ICONS } from "../../../../public/assets";
 
 const OurInfluencers = () => {
     const [activeTab, setActiveTab] = useState<string>("Lifestyle");
@@ -20,7 +22,7 @@ const OurInfluencers = () => {
         "Tech"
     ];
     return (
-        <div className="py-[220px]">
+        <div className="py-[220px] font-Satoshi">
             <Container>
                 <Heading subHeading="OUR INFLUENCERS" heading="Influencers that trust our platform" />
 
@@ -52,6 +54,12 @@ const OurInfluencers = () => {
                         ))}
                     </Swiper>
                 </div>
+
+                <button className="bg-gradient-primary px-8 py-4 rounded-xl flex items-center gap-[10px] font-medium text-xl leading-6 w-fit mx-auto cursor-pointer 
+                                    transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl active:scale-95 text-white mt-12">
+                    Get Started
+                    <Image src={ICONS.rightArrow} alt="right-arrow" className="transition-transform duration-300 ease-in-out group-hover:translate-x-1" />
+                </button>
             </Container>
         </div>
     );
