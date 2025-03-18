@@ -3,6 +3,12 @@ import Heading from "@/components/Reusable/Heading/Heading";
 import { useState } from "react";
 import InfluencerCard from "./InfluencerCard";
 import Container from "@/components/Reusable/Container/Container";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Navigation } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 
 const OurInfluencers = () => {
     const [activeTab, setActiveTab] = useState<string>("Lifestyle");
@@ -27,7 +33,24 @@ const OurInfluencers = () => {
                 </div>
 
                 <div className="mt-8">
-                    <InfluencerCard />
+                    <Swiper
+                        slidesPerView={4}
+                        spaceBetween={32}
+                        autoplay={{
+                            delay: 2000,
+                            disableOnInteraction: false,
+                            pauseOnMouseEnter: true,
+                        }}
+                        loop={true}
+                        modules={[Autoplay]}
+                        className="mySwiper"
+                    >
+                        {[...Array(8)].map((_, index) => (
+                            <SwiperSlide key={index}>
+                                <InfluencerCard />
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
                 </div>
             </Container>
         </div>
