@@ -4,6 +4,7 @@ import dummyInfluencer from "./images/dummy-influencer.png";
 import gradientBg from "./images/gradient-bg.svg";
 import gradientBg2 from "./images/gradiebt-bg2.svg";
 import ourFeaturesBg from "./images/our-features-bg.png";
+import joinUsBg from "./images/join-us-bg.png";
 
 // Icons
 import ellipse from "./icons/ellipse.svg";
@@ -45,10 +46,11 @@ export const GIFS = {
 
 export const IMAGES = {
     dummyLogo,
+    dummyInfluencer,
     gradientBg,
     gradientBg2,
-    dummyInfluencer,
     ourFeaturesBg,
+    joinUsBg,
 };
 
 export const ICONS = {
