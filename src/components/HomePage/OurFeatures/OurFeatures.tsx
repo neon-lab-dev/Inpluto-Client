@@ -18,10 +18,9 @@ const OurFeatures = () => {
     ];
     return (
         <div className="w-full font-Satoshi relative">
-            {/* <Image src={IMAGES.ourFeaturesBg} alt="" className="absolute w-full bg-cover bg-center bg-no-repeat z-0" /> */}
-
-            <Container>
-                <div className="flex flex-col items-center z-50">
+            <div className='h-[648px] absolute w-full flex items-center justify-center'>
+                <Image src={IMAGES.ourFeaturesBg} alt="" className="w-full h-[648px]" />
+                <div className="flex flex-col items-center justify-center z-50 absolute top-32 right-0 left-0">
                     <div className='text-center mx-auto'>
                         <h1 className="font-bold text-[64px] leading-[72px] max-w-[808px] text-white">
                             Everything You Need for Effortless Campaigns
@@ -31,15 +30,25 @@ const OurFeatures = () => {
                         </p>
                     </div>
                 </div>
+            </div>
 
-                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
-                    {
-                        features.map((feature, index) => (
-                            <FeatureCard key={index} {...feature} />
-                        ))
-                    }
-                </div>
-            </Container>
+            <div className='absolute w-full mx-auto top-[450px]'>
+                <Container>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
+                        {
+                            features.map((feature, index) => (
+                                <FeatureCard key={index} {...feature} />
+                            ))
+                        }
+                    </div>
+
+                    <button className="bg-gradient-primary px-8 py-4 rounded-xl flex items-center gap-[10px] font-medium text-xl leading-6 w-fit mx-auto cursor-pointer 
+                                                    transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl active:scale-95 text-white mt-10">
+                        Get Started
+                        <Image src={ICONS.rightArrow} alt="right-arrow" className="transition-transform duration-300 ease-in-out group-hover:translate-x-1" />
+                    </button>
+                </Container>
+            </div>
         </div>
     );
 };

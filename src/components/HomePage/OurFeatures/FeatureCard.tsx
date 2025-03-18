@@ -1,9 +1,12 @@
-import Image from "next/image";
-import { ICONS } from "../../../../public/assets";
+import Image, { StaticImageData } from "next/image";
 
-const FeatureCard = ({icon, title, description}) => {
+type TFeatureCard = {
+    icon: StaticImageData;
+    title: string;
+    description: string;
+};
 
-      
+const FeatureCard: React.FC<TFeatureCard> = ({ icon, title, description }) => {
     return (
         <div className="font-Satoshi p-6 rounded-2xl bg-white border border-gray-30 max-h-[214px]">
             <Image src={icon} alt="" className="size-12" />
