@@ -5,7 +5,7 @@ import { ReactNode } from "react";
 
 const HomeLayout = ({children} : {children:ReactNode}) => {
     return (
-        <div>
+        <div className="bg-neutral-35"> 
             <Navbar/>
             {children}
             <Footer/>

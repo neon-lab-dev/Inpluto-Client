@@ -12,9 +12,21 @@ import downArrow from "./icons/down-arrow.svg";
 
 // Gifs
 import codeGifs from "./gifs/code.gif";
+import engagementRates from "./gifs/engagement-rate.gif";
+import likeCommentRatio from "./gifs/like-comment-ratio.gif";
+import averageViewRates from "./gifs/average-view-rates.gif";
+import postFrequency from "./gifs/post-freequency.gif";
+import videoQuality from "./gifs/video-quality.gif";
+import followerGrowth from "./gifs/follower-growth.gif";
 
 export const GIFS = {
     codeGifs,
+    engagementRates,
+    likeCommentRatio,
+    averageViewRates,
+    postFrequency,
+    videoQuality,
+    followerGrowth,
 };
 
 export const IMAGES = {
