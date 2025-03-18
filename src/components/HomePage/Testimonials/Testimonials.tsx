@@ -31,7 +31,7 @@ const Testimonials = () => {
         },
     ];
     return (
-        <div className=" ">
+        <div className="bg-gradient-dark py-[96px] ">
             <Heading heading="Our Testimonials" description="See how brands and creators are transforming their campaigns with INPLUTO." />
             <Marquee speed={30} className="flex items-center mt-[64px]" direction="left" pauseOnHover>
                 {testimonials.map((testimonial) => (
