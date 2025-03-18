@@ -67,3 +67,26 @@
 .bg-gradient-primary {
   background: var(--bg-gradient-primary);
 }
+
+/* Custom scrollbar for a specific section */
+.custom-scrollbar {
+  overflow-y: auto;
+  max-height: 400px; /* Adjust height as needed */
+}
+
+/* Scrollbar Track (non-scrolled area) */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px; /* Scrollbar width */
+}
+
+/* Scrollbar Thumb (scrolled area) */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #1D293D; /* Dark blue scrollbar */
+  border-radius: 4px;
+}
+
+/* Scrollbar Track (background) */
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #020618; /* Dark background for non-scrolled area */
+}
+
