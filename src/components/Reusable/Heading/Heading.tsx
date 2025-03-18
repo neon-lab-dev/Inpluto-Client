@@ -13,7 +13,7 @@ const Heading: React.FC<THeading> = ({ subHeading, heading, description }) => {
             </h1>
             {
                 description &&
-                <p className="text-gray-20 text-2xl leading-7 mt-1 text-center max-w-[762px]">{description}</p>
+                <p className="text-gray-20 text-2xl leading-7 mt-1 text-center">{description}</p>
             }
         </div>
     );
