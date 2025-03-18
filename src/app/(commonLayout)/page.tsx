@@ -1,5 +1,6 @@
 import OurFeatures from "@/components/HomePage/OurFeatures/OurFeatures";
 import OurInfluencers from "@/components/HomePage/OurInfluencers/OurInfluencers";
+import Testimonials from "@/components/HomePage/Testimonials/Testimonials";
 import TrackingMetrics from "@/components/HomePage/TrackingMetrics/TrackingMetrics";
 
 
@@ -10,6 +11,7 @@ export default function Home() {
       <TrackingMetrics />
       <OurInfluencers/>
       <OurFeatures/>
+      <Testimonials/>
     </div>
   );
 }

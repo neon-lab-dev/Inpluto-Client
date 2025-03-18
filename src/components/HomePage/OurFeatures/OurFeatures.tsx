@@ -7,17 +7,18 @@ import FeatureCard from './FeatureCard';
 const OurFeatures = () => {
     const features = [
         { icon: ICONS.lightBulbIdea, title: "Strategy & Matchmaking", description: "Connect with the right influencers through AI-driven matchmaking, ensuring your brand reaches the perfect audience." },
-        { icon: ICONS.bag, title: "Influence-Driven Purchases", description: "Tap into consumer trust—80% of buyers make a purchase based on an influencer’s recommendation." },
-        { icon: ICONS.target, title: "Targeted Engagements", description: "Deliver hyper-focused content to the right audience, ensuring higher visibility and meaningful interactions." },
-        { icon: ICONS.testTubeMinimalistic, title: "Creative Testing Like Never Before", description: "Run 100+ content variations at once to identify the top-performing creatives for better ROI." },
-        { icon: ICONS.globe, title: "Multilingual & Multicultural Reach", description: "Expand your brand’s influence with localized content, reaching diverse audiences across cities and regions." },
-        { icon: ICONS.chart2, title: "Analytics & Reporting", description: "Track, analyze, and optimize your campaigns with real-time insights to maximize ROI and engagement." },
-        { icon: ICONS.megaphone, title: "Full-Service Campaign Management", description: "From strategy to execution, we handle everything—ensuring your influencer campaigns run seamlessly and successfully." },
         { icon: ICONS.write, title: "Content Creation & Support", description: "Empower influencers with high-quality, engaging content that resonates with their followers and amplifies your brand message." },
+        { icon: ICONS.megaphone, title: "Full-Service Campaign Management", description: "From strategy to execution, we handle everything—ensuring your influencer campaigns run seamlessly and successfully." },
+        { icon: ICONS.chart2, title: "Analytics & Reporting", description: "Track, analyze, and optimize your campaigns with real-time insights to maximize ROI and engagement." },
+        { icon: ICONS.globe, title: "Multilingual & Multicultural Reach", description: "Expand your brand’s influence with localized content, reaching diverse audiences across cities and regions." },
+        { icon: ICONS.testTubeMinimalistic, title: "Creative Testing Like Never Before", description: "Run 100+ content variations at once to identify the top-performing creatives for better ROI." },
+        { icon: ICONS.target, title: "Targeted Engagements", description: "Deliver hyper-focused content to the right audience, ensuring higher visibility and meaningful interactions." },
+        { icon: ICONS.bag, title: "Influence-Driven Purchases", description: "Tap into consumer trust—80% of buyers make a purchase based on an influencer’s recommendation." },
         { icon: ICONS.chessKing, title: "Affordable Creative Production", description: "Get high-quality, cost-effective influencer content that’s cheaper than traditional media, enabling quick iterations." },
     ];
     return (
-        <div className="w-full font-Satoshi relative">
+        <div className='w-full font-Satoshi relative pb-20'>
+            <div className="relative w-full h-[1300px]">
             <div className='h-[648px] absolute w-full flex items-center justify-center'>
                 <Image src={IMAGES.ourFeaturesBg} alt="" className="w-full h-[648px]" />
                 <div className="flex flex-col items-center justify-center z-50 absolute top-32 right-0 left-0">
@@ -49,6 +50,7 @@ const OurFeatures = () => {
                     </button>
                 </Container>
             </div>
+        </div>
         </div>
     );
 };

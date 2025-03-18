@@ -1,6 +1,6 @@
 
 type THeading = {
-    subHeading: string;
+    subHeading?: string;
     heading: string;
     description?: string;
 }
@@ -13,7 +13,7 @@ const Heading: React.FC<THeading> = ({ subHeading, heading, description }) => {
             </h1>
             {
                 description &&
-                <p className="text-gray-20 text-2xl leading-7 mt-1">{description}</p>
+                <p className="text-gray-20 text-2xl leading-7 mt-1 text-center">{description}</p>
             }
         </div>
     );
