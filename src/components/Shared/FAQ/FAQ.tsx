@@ -38,7 +38,7 @@ const FAQ = () => {
                     {accordingData?.map((according, index) => (
                         <article key={index} className={``}>
                             <div
-                                className="flex gap-2 cursor-pointer items-center justify-between max-w-[531px] w-full"
+                                className="flex cursor-pointer items-center justify-between max-w-[531px] w-full"
                                 onClick={() => handleClick(index)}
                             >
                                 <h2 className="text-white font-medium leading-5">
@@ -55,8 +55,7 @@ const FAQ = () => {
                                 className={`grid transition-all duration-300 overflow-hidden ease-in-out max-w-[531px] ${isAccordingOpen === index
                                         ? "grid-rows-[1fr] opacity-100 mt-4"
                                         : "grid-rows-[0fr] opacity-0"
-                                    }`}
-                            >
+                                    }`}>
                                 <p className="text-neutral-60">{according.description}</p>
                             </div>
                         </article>
